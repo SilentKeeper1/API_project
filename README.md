@@ -10,29 +10,6 @@
 
 ---
 
-## 📂 Структура проекту
-
-project/
-├── .venv/                  # Віртуальне середовище Python (не включати у Git)
-├── app/
-│   ├── api/                # Роути FastAPI
-│   │   └── routes.py
-│   ├── models/             # SQLAlchemy моделі
-│   │   └── user.py
-│   ├── db/                 # Підключення до бази даних
-│   │   └── session.py
-│   ├── core/               # Конфігурації та налаштування
-│   │   └── config.py
-│   └── main.py             # Точка входу FastAPI
-├── alembic/
-│   ├── versions/           # Історія міграцій
-│   └── env.py              # Налаштування Alembic
-├── alembic.ini             # Конфігураційний файл Alembic
-├── requirements.txt        # Залежності Python
-├── README.md               # Документація проєкту
-└── trc.db                  # SQLite база даних
----
-
 ## 🛠 Таблиці в БД
 
 ### 1. `birthday_reservations`
